@@ -1,7 +1,5 @@
 #include <iostream>
 
-using namespace std;
-
 int main(){
 	int k;
 	if(!(std::cin>>k)) return 0;
@@ -10,7 +8,7 @@ int main(){
 	while(sn<=k){
 		n++;
 		sn += 1.0/n;
-		std::cout<<sn<<std::endl;
 	}
+	std::cout<<n<<std::endl;
 	return 0;
 }
